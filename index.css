@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Lato';
+    box-sizing: border-box;
+}
+   .hero {
+    background-image: url("./images/james-barr.png");
+    background-size: cover;
+    background-position: center;
+    height: 740px;
+    width: 100%;
+    position: relative;
+   }    
+   .mobile_nav_btn{
+      display: none;
+   }
+   .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-right: 92px;
+    background-color: transparent;
+   color: #a2a2a2;
+   }
+   
+   .nav-item {
+    display: flex;
+    margin-left: 30px;
+   }
+   .nav-link {
+    color: currentColor;
+    line-height: 19px;
+    text-decoration: none;
+    font-size: 16px;
+   }
+   .selected {
+    color: #404040;
+   }
+   .inner-div {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+   }
+   .hero-content {
+    width:100%;
+    max-width: 467px;
+    margin-top: calc(181px - 70px);
+   }
+   .hero-heading {
+    font-size: 48px;
+    color: #404040;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 24px;
+   }
+   .hero-text {
+    color: #404040;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+   }
+   .hero-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .hire-btn {
+    border: 1px solid #404040;
+    padding: 22px 62px;
+    font-family: inherit;
+}
+   .social-icons {
+   position: absolute;
+   right: 100px;
+   bottom: 55.59px;
+
+   } 
+   .icon-item {
+    display: flex;
+    font-size: 24px;
+
+}  
+.icon-item + .icon-item {
+margin-top: 29.5px;
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+}
+.about-img {
+    width: 505px;
+    height: 637px;  
+    flex-shrink: 0;
+    margin-right: 19.92px;  
+    margin-top: 69px;
+    font-family: lato;  
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-content {
+    width:715px;
+    height: 50px;
+    margin-bottom: 60px;
+    margin-top: 86px;
+}
+.about-header {
+    line-height: 21px;
+    margin-bottom: 38px;
+    font-size: 32px;
+    font-style: bold;
+}
+.about-description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.gallery {
+    margin: 12px;
+}
+.gallery-header {
+    text-align: center;
+    line-height: 21px;
+    font-size: 32px;
+    margin-bottom: 16px ;
+}
+.gallery p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px 0;
+    
+}
+.gallery-btn {
+    border: 1px solid #404040;
+    padding: 22px 62px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    margin-bottom: 56px;
+    background: transparent;
+}
+.right-arrow, .left-arrow {
+    display: none;
+}
+.client-header {
+    text-align: center;
+    margin-bottom: 16px;
+}  
+
+.client-description {
+    text-align: center;
+}
+.client-logo {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-section {
+    display: flex;
+}
+.contact-heading, .contact-description {
+    text-align: center;
+}
+.contact-description {
+    padding-bottom: 15.82px;
+}
+.contact-image {
+    flex-basis: 50%;
+    margin-top: 24px;
+}
+.contact-form {
+    margin-top: 62px;
+    flex-basis: 50%;
+}
+
+.contact-heading {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+ label{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+span.input-details {
+    width: 93px;
+    font-size: 24px;
+    line-height: 21px;
+    margin: 12px;
+}
+.user-input {
+    flex: 1;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #404040;
+}
+.message-box {
+    flex: 1;
+    height: 228px;
+    border-radius: 5px;
+    border: 1px solid #404040;
+}
+.submit-btn {
+    border: 1px solid #404040;
+    padding: 20px 92px;
+    margin-top: 71px;
+    margin-left: 112px;  
+    margin-bottom: 54px;
+    background: transparent;
+}
+.footer-section {
+    width: 100%;
+    height: 102px;
+    text-align: center;
+}
+.footer-icons  {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.footer-list-item {
+    display: flex;
+}
+.footer-list-item + .footer-list-item {
+    margin-left: 10px;
+}
+
+@media (max-width: 414px) {
+    
+.hero {
+    width:100%; 
+    height: 896px;
+    background-image: url("./images/hero\ image.png");
+    background-size: cover;
+    background-position: top center;
+    padding-left: 20px;
+    position: relative;
+}
+.nav-wrapper {
+    display: none;
+   }
+.hero-content {
+    position: absolute;
+    bottom: 40px;
+    max-width: 284px;
+   }
+   
+.hero-heading {
+    height: 58px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #f2f2f2;
+    margin-bottom: 0;
+    
+}
+.hero-text {
+    line-height: 18px;
+    font-size: 15px;
+    color: #f2f2f2;
+    margin-bottom: 14px;
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.hire-btn {
+    background: transparent;
+    color: transparent;
+}
+.social-icons {
+    display: none;
+}
+.about-section {
+    width: 100%;
+    height: 559px;
+    position: relative;
+    padding-top: 101px;
+}
+.mobile_nav_btn {
+    margin-top: 37px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+    outline: none;
+    border: none;
+}
+.about-img {
+    width: 111px;
+    height: 203px;
+    margin-left: 20px;
+    margin-top: 0;
+
+}
+.about-content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about-description {
+    width: 243px;
+    font-size: 10px;
+    line-height: 13.5px;
+    margin-bottom: 7px;
+}
+.about-header {
+    position: absolute;
+    top: 33px;
+    font-size: 20px;
+    line-height: 21px;
+}
+.gallery {
+    width:100%;
+    height: 455;
+    position: relative;
+}
+.gallery-header {
+    font-size: 20px;
+    line-height: 21px;
+    margin-top: 45px;
+}
+
+.gallery-text{
+    font-size: 10px;
+    line-height: 21px;
+}
+.gallery-photos {
+    width: 242px;
+    height: 363px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-photos:nth-child(n + 2){ 
+    display: none;
+}
+.gallery-btn {
+    padding: 9px 12px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.left-arrow, .right-arrow{
+    display: inline-block;
+}
+.left-arrow {
+    position: absolute;
+    bottom: 199px;
+    left: 20px;
+}
+.right-arrow {
+    position: absolute;
+    bottom: 199px;
+    right: 20px;
+
+}
+.client-section {
+    width:100%;
+    padding-left: 20px;
+    padding-right: 30.21px;
+    margin-bottom: 0;
+}
+.client-header {
+    font-size: 20px;
+    line-height: 21px;
+}
+.client-description {
+    font-size: 10px;
+    line-height: 21px;
+}
+.client-logo {
+    margin-top: 5px;
+    align-items: center;
+    margin-bottom: 0;
+}
+.check-logo {
+    width: 110px;
+    height: 38.2px;
+}
+.vogue-logo {
+    width: 109.46px;
+    height: 28;
+}
+.kulture-logo {
+    width: 100.71px;
+    height: 42.3;
+}
+.contact-div {
+    width: 100%;
+}
+.contact-image {
+    display: none;
+}
+.contact-form{
+ width: 100%;
+ margin-top: 10px;
+}
+.contact-details {
+    width: inherit;
+}
+label {
+    display: block;
+}
+span.input-details {
+    margin-bottom: 8px;
+}
+.contact-details {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contact-heading {
+    font-size: 20px;
+    line-height: 21px;
+}
+.user-input {
+    width: 100%;
+}
+.message-box {
+    display: block;
+    width: 100%;
+}
+.submit-btn {
+    padding: 20px 66px;
+    margin-left:0;
+    width: 243px;
+    margin-top: 32px;
+    margin-right: 101px; 
+    margin-bottom: 54px;
+    background: transparent;
+}
+
+
+
